@@ -1,0 +1,69 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+body{
+    background-color:#212121;
+}
+.app{
+    font-size: 3rem;
+    color: red;
+    text-shadow: 2px 2px black;
+    margin-top: 40px;
+    font-variant: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    margin: 50px auto;
+    max-width: 400px;
+    border-radius: 10px;
+    background-color:#363636;
+    padding: 50px;
+}
+h1{
+    text-align: center;
+    color:greenyellow;
+    padding: 5px;
+    font-variant: small-caps;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px;
+}
+input{
+    padding: 8px;
+    margin: 8px;
+    border-radius: 8px;
+    background-color: grey;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+input::placeholder{
+    color: #474747;
+    
+}
+h3{
+    color: white;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+span a{
+    color: greenyellow;
+    text-decoration: none;
+    font-weight: bold;
+}
+button{
+    font-size: 1.2rem;
+    padding: 6px 3px;
+    margin: 5px;
+    background-color: greenyellow;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.usama{
+    color: red;
+    font-size: 1.4rem;
+}
